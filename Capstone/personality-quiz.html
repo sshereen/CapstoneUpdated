@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Personality Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<header>
+    <h1> NextStep </h1>
+</header>
+<nav>
+    <ul>
+        <li> Home </li>
+        <li> Majors </li>
+        <li><a href= "personality-quiz.html"> Self Assessment Quiz</a></li>
+        <li> Advice Column </li>
+    </ul>
+</nav>
+<container>
+    <div id="quiz" >
+        <div class="quiz-container">
+            <div class="title">Self-Assessment Quiz</div>
+            <div id="question" class="question"></div>
+            <label class="option">
+                <input type="radio" name="option" value="1" />
+                <span class="option1"></span>
+            </label>
+            <label class="option">
+                <input type="radio" name="option" value="2" />
+                <span class="option2"></span>
+            </label>
+            <label class="option">
+                <input type="radio" name="option" value="3" />
+                <span class="option3"></span>
+            </label>
+            <!-- Buttons -->
+            <div class="controls">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+            </div>
+        </div>
+    </div>
+</container>
+
+<div class="result">
+
+</div>
+
+<script src=questions.js></script>
+<script src="main.js"></script>
+</body>
+
+</html>

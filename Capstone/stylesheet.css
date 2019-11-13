@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+header h1 {
+    text-align: center;
+    border: 1px solid #D04949;
+    padding: 5px;
+    background-color: #E16B6B;
+    color: white;
+    font-family: 'Indie Flower';
+    font-size: 40px;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin-right: 80px;
+    font-family: 'Indie Flower';
+}
+
+li:hover{
+    background-color: #F08080;
+    padding: 5px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#AboutUs{
+    border: 5px solid #CD5C5C;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+    font-family: 'Bradley Hand', cursive;
+}
+
+container{
+    text-align: center;
+}
+
+td {
+    width: 250px;
+    height: 200px;
+    padding: 5PX;
+    font-size: 30px;
+    border: 1px solid #D04949;
+    background-color: #E16B6B;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    text-transform: uppercase;
+    padding-top: 65px;
+
+}
+
+
+.majorBox h1 {
+    position: relative;
+    text-transform: uppercase;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+td:hover {
+    background-color: #F08080;
+}
+
+footer{
+    border: 1px solid black;
+    text-align: center;
+    clear: left;
+
+}
+
+
+
+
+
