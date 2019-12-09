@@ -1,92 +1,61 @@
 const questions = [
     {
-        "question": "Science",
-        "answer1": "Interested",
-        "answer1Total": "3",
-        "answer2": "Neutral",
-        "answer2Total": "2",
-        "answer3": "Not Interested",
-        "answer3Total": "1"
+        "question": "Have you ever coded and enjoyed it?",
+        "answer1": "Yes",
+        "answer1Total": "1",
+        "answer2": "No",
+        "answer2Total": "0"
     },
     {
-        "question": "Working with people",
-        "answer1": "Interested",
-        "answer1Total": "3",
-        "answer2": "Neutral",
-        "answer2Total": "2",
-        "answer3": "Not Interested",
-        "answer3Total": "1"
+        "question": "Do you like solving logical problems?",
+        "answer1": "Yes",
+        "answer1Total": "1",
+        "answer2": "No",
+        "answer2Total": "0"
     },
     {
-        "question": "Exercising",
-        "answer1": "Interested",
-        "answer1Total": "3",
-        "answer2": "Neutral",
-        "answer2Total": "2",
-        "answer3": "Not Interested",
-        "answer3Total": "1"
+        "question":
+            "Do you like learning new programming languages?",
+        "answer1": "Yes",
+        "answer1Total": "1",
+        "answer2": "No",
+        "answer2Total": "0"
     },
     {
-        "question": "Expressing Creativity",
-        "answer1": "Interested",
-        "answer1Total": "3",
-        "answer2": "Neutral",
-        "answer2Total": "2",
-        "answer3": "Not Interested",
-        "answer3Total": "1"
+        "question": "Do you like working with technology, specifically software?",
+        "answer1": "Yes",
+        "answer1Total": "1",
+        "answer2": "No",
+        "answer2Total": "0"
     },
     {
-        "question": "Politics",
-        "answer1": "Interested",
-        "answer1Total": "3",
-        "answer2": "Neutral",
-        "answer2Total": "2",
-        "answer3": "Not Interested",
-        "answer3Total": "1"
+        "question": "Have you enjoyed making a website or application in the past?",
+        "answer1": "Yes",
+        "answer1Total": "1",
+        "answer2": "No",
+        "answer2Total": "0"
     },
     {
-        "question": "Public Speaking",
-        "answer1": "Interested",
-        "answer1Total": "3",
-        "answer2": "Neutral",
-        "answer2Total": "2",
-        "answer3": "Not Interested",
-        "answer3Total": "1"
+        "question":
+            "Do you enjoy working with large sets of data and analyzing trends?",
+        "answer1":
+            "Yes",
+        "answer1Total": "1",
+        "answer2": "No",
+        "answer2Total": "0"
     },
     {
-        "question": "Anatomy and Physiology",
-        "answer1": "Interested",
-        "answer1Total": "3",
-        "answer2": "Neutral",
-        "answer2Total": "2",
-        "answer3": "Not Interested",
-        "answer3Total": "1"
+        "question": "Would you like to help protect networks from unauthorized users and prevent cyber attacks?",
+        "answer1": "Yes",
+        "answer1Total": "1",
+        "answer2": "No",
+        "answer2Total": "0"
     },
     {
-        "question": "Playing instruments",
-        "answer1": "Interested",
-        "answer1Total": "3",
-        "answer2": "Neutral",
-        "answer2Total": "2",
-        "answer3": "Not Interested",
-        "answer3Total": "1"
-    },
-    {
-        "question": "Entrepreneurship",
-        "answer1": "Interested",
-        "answer1Total": "3",
-        "answer2": "Neutral",
-        "answer2Total": "2",
-        "answer3": "Not Interested",
-        "answer3Total": "1"
-    },
-    {
-        "question": "Technology",
-        "answer1": "Interested",
-        "answer1Total": "3",
-        "answer2": "Neutral",
-        "answer2Total": "2",
-        "answer3": "Not Interested",
-        "answer3Total": "1"
-    },
+        "question": "Do you enjoy learning about computing infrastructures?",
+        "answer1": "Yes",
+        "answer1Total": "1",
+        "answer2": "No",
+        "answer2Total": "0"
+    }
 ]

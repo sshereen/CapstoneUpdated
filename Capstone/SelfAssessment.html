@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="Concentrations.css">
+</head>
+<body>
+
+<header class="header sticky sticky--top js-header">
+
+    <div class="grid">
+
+        <nav class="navigation">
+            <ul class="navigation__list navigation__list--inline">
+                <li class="navigation__item"><a href="main.html" class="is-active">Home</a></li>
+                <li class="navigation__item"><a href="Concentrations.html">Concentrations</a></li>
+                <li class="navigation__item"><a href="SelfAssessment.html">Self Assessment</a></li>
+                <li class="navigation__item"><a href="Advice.html">Advice Column</a></li>
+                <li class="navigation__item"><a href="Resources.html">Resources</a></li>
+
+            </ul>
+        </nav>
+
+    </div>
+
+</header>
+
+<main class="main">
+
+    <div class="grid">
+
+        <h1>Self Assessment</h1>
+        <div class="block"></div>
+
+
+    </div>
+</main>
+<div class="quiz-container">
+    <div class="title">Self Assessment</div>
+    <div id="question" class="question"></div>
+    <label class="option">
+        <input type="radio" name="option" value="1" />
+        <span class="option1"></span>
+    </label>
+    <label class="option">
+        <input type="radio" name="option" value="2" />
+        <span class="option2"></span>
+    </label>
+    <!-- Buttons -->
+    <div class="controls">
+        <button class="next">Next</button>
+    </div>
+</div>
+
+<div class="result">
+
+</div>
+
+<script src=questions.js></script>
+<script src="SelfAssessment.js"></script>
+</body>
+
+
+<footer>
+    <p> NextStep 2019 &copy; </p>
+</footer>
